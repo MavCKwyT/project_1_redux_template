@@ -12,5 +12,5 @@ root.render(
   </React.StrictMode>,
 );
 
-// formatting for js code
-// ability to run vanilla js code
+// pre commit hooks
+// chat
