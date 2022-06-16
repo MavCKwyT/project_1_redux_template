@@ -11,7 +11,3 @@ root.render(
     <App />
   </React.StrictMode>,
 );
-
-// pre commit hooks
-// chat
-// pipeline
