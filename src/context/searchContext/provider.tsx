@@ -1,18 +1,12 @@
-import React, { FC, ReactNode, useState } from 'react';
+import React, { FC, ReactNode } from 'react';
 import { SearchContext } from './index';
-import data from '../../api/data.json';
 
 export interface IProps {
   children: ReactNode
 }
 
 export const SearchContextProvider: FC<IProps> = ({ children }) => {
-  const [search, setSearch] = useState('');
-  const context = {
-    search,
-    setSearch: (event: string) => setSearch(event),
-    data,
-  };
+  const context = {};
 
   return (
     <SearchContext.Provider value={context}>
