@@ -23,7 +23,7 @@
   },
   "proxy": "http://localhost:3021/",
   "scripts": {
-    "start": "PORT=3020 react-scripts start",
+    "start": "TSC_COMPILE_ON_ERROR=true react-scripts start",
     "build": "react-scripts build"
   },
   "browserslist": {
