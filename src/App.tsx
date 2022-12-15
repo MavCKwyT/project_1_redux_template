@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { useDispatch, useSelector } from "react-redux";
 
 export const App = () => {
@@ -7,6 +6,6 @@ export const App = () => {
   const dispatch = useDispatch() // to use actions
 
   return (
-      <div className="App" style={{ backgroundColor: 'lightgray', height: '100px'}}></div>
+        <div className='text-6xl'>TAILWINDCSS</div>
   );
 };
